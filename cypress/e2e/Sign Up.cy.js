@@ -2,7 +2,7 @@
 describe ('Sign Up', () => {
    beforeEach(() => {
       cy.viewport(1920, 1080)
-      cy.visit("/")
+      cy.visit("https://getmeddevices.com/version-test/")
    })
  
      Cypress.on('uncaught:exception', (err, runnable) => {

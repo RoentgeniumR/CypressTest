@@ -1,7 +1,7 @@
 describe ('Log In', () => {
  beforeEach(() => {
     cy.viewport(1920, 1080)
-    cy.visit("/")
+    cy.visit("https://getmeddevices.com/version-test/")
     cy.get('.baTaVsaG4').should('be.visible').and('exist').click()
     })
 
