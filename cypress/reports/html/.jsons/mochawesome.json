@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-02-01T06:51:31.816Z",
+    "end": "2024-02-01T06:51:32.065Z",
+    "duration": 249,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ce14851f-8c21-45cc-a868-4b1520193fb2",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Create RFQ Product.cy.js",
+      "file": "cypress\\e2e\\Create RFQ Product.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9e520eb1-9493-4fa8-828b-4000e25a0e65",
+          "title": "Create RFQ Product",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test1-verify create-rfq-product",
+              "fullTitle": "Create RFQ Product test1-verify create-rfq-product",
+              "timedOut": null,
+              "duration": 206,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      \"\\\\Create RFQ Product.cy.js\\\\Create RFQ Product -- test1-verify create-rfq-product -- before each hook (failed).png\"\n    ]\n  ]\n}",
+              "code": "cy.get('.baTaVsaG4').should('be.visible').and('exist').click();\ncy.get('.Image > img').should('be.visible').and('exist');\ncy.get('.baTaHaKl4 > .Input').should('be.visible').and('exist').type('kendrickcavas@gmail.com');\ncy.get('#passwording').should('be.visible').and('exist').type('Admin@123');\ncy.get('.Button').should('be.visible').and('exist').click();\ncy.get('.baTsaUu5').should('be.visible').and('exist').click().and('have.text', 'Request for Quotation');\ncy.get('.baTaHaZz').should('be.visible').and('exist').click();\ncy.get('.baTaXjr2').should('be.visible').and('exist').click();\ncy.get('.baTaNaHl0 > .clickable-element').should('be.visible').and('exist').click();\ncy.get('.baTaStaU2').and('exist').eq(3).click({\n  multiple: true\n});\ncy.get('.baTaSvz0').should('be.visible').and('exist').type('999');\ncy.get(\"[class='bubble-element Dropdown dropdown-chevron']\").should('be.visible').and('exist').eq(0).select('box');\ncy.get('.baTaSvu0').should('be.visible').and('exist').type('999999');\ncy.get(\"[class='bubble-element Dropdown dropdown-chevron']\").should('be.visible').and('exist').eq(1).select('Cash on Delivery');\ncy.xpath(\"/html[1]/body[1]/div[10]/div[7]/textarea[1]\").should('be.visible').and('exist').type('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis mi ut lacus molestie pellentesque. Aenean faucibus volutpat magna, semper aliquet felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In semper ipsum vel fermentum tempor. Proin in sodales leo, ac ultrices arcu. Nulla facilisi. Mauris sagittis nunc justo, vel lobortis tortor lobortis vitae. Suspendisse sed purus vel nisi ornare tincidunt. Phasellus vestibulum at odio et posuere. Fusce ipsum elit, feugiat non tempor quis, scelerisque at lorem. Nam sollicitudin consequat turpis sed fermentum. Integer porta ultricies sapien et sodales. Aliquam arcu lacus, congue ac mauris vel, faucibus commodo tellus. Pellentesque dolor velit, mollis sit amet luctus vel, imperdiet vel libero. Fusce posuere porta odio eget efficitur. Maecenas vehicula porttitor eros ac luctus.');\ncy.get('.baTaSwaS0').should('be.visible').and('exist').click();\ncy.get('.greyout.baTaSaaD0').and('exist').click({\n  force: true\n});\ncy.get('.baTaWaCb4 > .multifileupload-MultiFileInput > .dropzone > .dz-default').attachFile('rizal3.jpg', {\n  subjectType: 'drag-n-drop'\n});\ncy.get('.baTaIfaW').should('be.visible').and('exist').click();\ncy.get('.baTaIaCaW2').should('be.visible').and('exist').click();\ncy.get('.baTaJaPg0 > .Checkbox').should('be.visible').and('exist').click().wait(5000);\ncy.get('.baTaMaUi1').should('be.visible').and('exist').click();",
+              "err": {
+                "message": "CypressError: `cy.visit()` failed trying to load:\n\n/\n\nWe failed looking for this file at the path:\n\n/Getmeddevices/cypress get-med-devices/\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Create RFQ Product`",
+                "estack": "CypressError: `cy.visit()` failed trying to load:\n\n/\n\nWe failed looking for this file at the path:\n\n/Getmeddevices/cypress get-med-devices/\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Create RFQ Product`\n    at <unknown> (http://localhost:60441/__cypress/runner/cypress_runner.js:130950:76)\n    at visitFailedByErr (http://localhost:60441/__cypress/runner/cypress_runner.js:130358:12)\n    at <unknown> (http://localhost:60441/__cypress/runner/cypress_runner.js:130933:13)\n    at tryCatcher (http://localhost:60441/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:60441/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:60441/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:60441/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:60441/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:60441/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:60441/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:60441/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:60441/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://cypress-get-med-devices/./cypress/e2e/Create RFQ Product.cy.js:4:11)",
+                "diff": null
+              },
+              "uuid": "182a7fa0-cecc-445a-bcff-6ba5b8240388",
+              "parentUUID": "9e520eb1-9493-4fa8-828b-4000e25a0e65",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "182a7fa0-cecc-445a-bcff-6ba5b8240388"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 206,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
