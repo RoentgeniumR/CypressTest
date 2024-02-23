@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mailosaur": "^2.13.0",
+    "cypress-mochawesome-reporter": "^3.8.1",
+    "cypress-real-events": "^1.10.3",
+    "cypress-xpath": "^2.0.1"
+  },
+  "name": "cypress-get-med-devices",
+  "version": "1.0.0",
+  "main": "Autom8.cy.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
