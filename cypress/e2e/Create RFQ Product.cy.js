@@ -1,7 +1,6 @@
 describe ('Create RFQ Product', () => {
     beforeEach(() => {
-        cy.viewport(1920, 1080)
-        cy.visit("https://getmeddevices.com/version-test/")
+        cy.init()
     })
     Cypress.on('uncaught:exception', (err, runnable) => {
         return false

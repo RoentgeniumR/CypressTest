@@ -7,8 +7,7 @@ describe('Marketing Page', () => {
   })
 
   it('test1-verify title', () => {
-    cy.viewport(1920, 1080)
-    cy.visit("https://getmeddevices.com/version-test/")
+    cy.init()
     cy.title().should('eq', 'Get Medical Devices by InterLeukin')
     // visits get-med-devices
 
@@ -21,7 +20,7 @@ describe('Marketing Page', () => {
   it('test2-verify header', () => {
     cy.viewport(1920, 1080)
     cy.visit("https://getmeddevices.com/version-test/")
-    cy.get('img[src="https://c069852b81372057f0c48face4136925.cdn.bubble.io/f1693838096342x448017537671098430/logo.svg"]')
+    cy.get('img[src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fc069852b81372057f0c48face4136925.cdn.bubble.io%2Ff1698282646317x343048845885952830%2FLogo-L.png?w=384&h=61&auto=compress&dpr=1&fit=max"]')
     .should('be.visible')
     .and('exist')
     .wait(5000)
